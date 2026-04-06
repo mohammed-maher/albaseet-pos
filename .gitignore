@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# SQLite databases (customer/sales data — never commit)
+*.db
+*.db-shm
+*.db-wal
+
+# Encrypted license files
+*.dat
+
+# Generated license key files
+license_*.txt
+
+# macOS
+.DS_Store
+
+# JetBrains IDE
+.idea/
+
+# Private key (never commit — kept at ~/albaseet-license-keys/private.pem)
+*.pem
+*.key
+
+# Logs
+*.log
+npm-debug.log*
